@@ -5,7 +5,7 @@ import { Context as AuthContext } from '../context/AuthContext'
 import AuthForm from '../components/AuthForm'
 import Link from '../components/Link'
 
-const SigninScreen = () => {
+const SignupScreen = () => {
     const { state, signup, clearErrorMessage } = useContext(AuthContext)
 
     return (
@@ -27,7 +27,7 @@ const SigninScreen = () => {
     )
 }
 
-SigninScreen.navigationOptions = () => {
+SignupScreen.navigationOptions = () => {
     return {
         header: null,
     }

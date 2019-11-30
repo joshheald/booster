@@ -25,7 +25,7 @@ const switchNavigator = createSwitchNavigator({
   }),
   mainFlow: createBottomTabNavigator({
     Workout: WorkoutScreen,
-    Results: ResultsScreen,
+    Results: workoutsListFlow,
     Account: AccountScreen
   })
 })
